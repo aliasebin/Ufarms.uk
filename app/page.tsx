@@ -1108,7 +1108,7 @@ export default function Home() {
                 <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
                   <div className="relative w-full aspect-video">
                     <Image
-                      src="/stac.png?height=200&width=300&text=STAC"
+                      src="/stac.png?hesight=200&width=300&text=STAC"
                       alt="Scottish Tech Army CIC"
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
