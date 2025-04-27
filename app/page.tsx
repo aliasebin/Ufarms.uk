@@ -1109,7 +1109,8 @@ export default function Home() {
                   <div className="relative w-full aspect-video">
                     <Image
                       src="/stac.png?hesight=200&width=300&text=STAC"
-                      alt="Scottish Tech Army CIC"
+                      alt="Smart Things Accelerator Centre: STAC"
+
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                       className="object-cover"
@@ -1117,7 +1118,7 @@ export default function Home() {
                   </div>
                   <div className="w-full p-3 text-center bg-white">
                     <h3 className="font-bold text-sm sm:text-base">STAC</h3>
-                    <p className="text-xs text-muted-foreground mt-1">Scottish Tech Army CIC</p>
+                    <p className="text-xs text-muted-foreground mt-1">Smart Things Accelerator Centre: STAC</p>
                   </div>
                 </div>
 
