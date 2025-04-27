@@ -161,7 +161,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container px-4 sm:px-6 md:px-8 flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Leaf className="h-6 w-6 text-primary" />
+            <img src="ufarmslogo.png" alt="Ufarms.io Logo" className="h-12 w-12" />
             <span className="text-xl font-bold">Ufarms.io UK</span>
           </div>
           <nav className="hidden md:flex gap-4 lg:gap-6">
@@ -441,7 +441,7 @@ export default function Home() {
           </div>
         </section>
 
-         
+
         {/* Product Roadmap Section */}
         <section id="roadmap" className="py-8 sm:py-10 md:py-16 bg-muted/30">
           <div className="container px-4 sm:px-6 md:px-8">
@@ -594,8 +594,8 @@ export default function Home() {
           </div>
         </section>
 
-          {/* Beta Program Section */}
-          <section id="beta-program" className="py-8 sm:py-10 md:py-16 bg-primary/5">
+        {/* Beta Program Section */}
+        <section id="beta-program" className="py-8 sm:py-10 md:py-16 bg-primary/5">
           <div className="container px-4 sm:px-6 md:px-8">
             <SectionHeading
               icon={<Beaker className="h-5 w-5" />}
@@ -1041,8 +1041,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-{/* Support and Collaborations Section */}
-<section id="collaborations" className="py-8 sm:py-10 md:py-16 bg-white">
+        {/* Support and Collaborations Section */}
+        <section id="collaborations" className="py-8 sm:py-10 md:py-16 bg-white">
           <div className="container px-4 sm:px-6 md:px-8">
             <SectionHeading
               icon={<Bookmark className="h-5 w-5" />}
@@ -1322,9 +1322,9 @@ export default function Home() {
         <div className="container px-4 sm:px-6 md:px-8">
           <div className="grid gap-8 md:grid-cols-3">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Leaf className="h-6 w-6 text-primary" />
-                <span className="text-xl font-bold">Ufarms UK</span>
+              <div className="flex items-center gap-2">
+                <img src="ufarmslogoWhite.png" alt="Ufarms.io Logo" className="h-11 w-11" />
+                <span className="text-xl font-bold">Ufarms.io UK</span>
               </div>
               <p className="text-sm text-gray-300 mb-4">
                 Empowering sustainable farming with automation and AI technology.
