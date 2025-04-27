@@ -441,77 +441,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Support and Collaborations Section */}
-        <section id="collaborations" className="py-8 sm:py-10 md:py-16 bg-white">
-          <div className="container px-4 sm:px-6 md:px-8">
-            <SectionHeading
-              icon={<Bookmark className="h-5 w-5" />}
-              badge="Our Network"
-              title="Support & Collaborations"
-              description="We're proud to work with these leading organizations to advance agricultural technology"
-            />
-
-            <div className="mt-8 sm:mt-10">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 items-center">
-                {/* SRUC */}
-                <div className="flex flex-col items-center justify-center p-4 sm:p-6 bg-muted/20 rounded-lg hover:bg-muted/30 transition-colors duration-300 aspect-video">
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
-                      <GraduationCap className="h-8 w-8 text-primary" />
-                    </div>
-                    <h3 className="font-bold text-sm sm:text-base">SRUC</h3>
-                    <p className="text-xs text-muted-foreground mt-1">Scotland's Rural College</p>
-                  </div>
-                </div>
-
-                {/* Business Gateway */}
-                <div className="flex flex-col items-center justify-center p-4 sm:p-6 bg-muted/20 rounded-lg hover:bg-muted/30 transition-colors duration-300 aspect-video">
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Building className="h-8 w-8 text-primary" />
-                    </div>
-                    <h3 className="font-bold text-sm sm:text-base">Business Gateway</h3>
-                    <p className="text-xs text-muted-foreground mt-1">Business Support Network</p>
-                  </div>
-                </div>
-
-                {/* Glasgow Caledonian University */}
-                <div className="flex flex-col items-center justify-center p-4 sm:p-6 bg-muted/20 rounded-lg hover:bg-muted/30 transition-colors duration-300 aspect-video">
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
-                      <School className="h-8 w-8 text-primary" />
-                    </div>
-                    <h3 className="font-bold text-sm sm:text-base">GCU</h3>
-                    <p className="text-xs text-muted-foreground mt-1">Glasgow Caledonian University</p>
-                  </div>
-                </div>
-
-                {/* STAC */}
-                <div className="flex flex-col items-center justify-center p-4 sm:p-6 bg-muted/20 rounded-lg hover:bg-muted/30 transition-colors duration-300 aspect-video">
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Rocket className="h-8 w-8 text-primary" />
-                    </div>
-                    <h3 className="font-bold text-sm sm:text-base">STAC</h3>
-                    <p className="text-xs text-muted-foreground mt-1">Scottish Tech Army CIC</p>
-                  </div>
-                </div>
-
-                {/* University of Glasgow */}
-                <div className="flex flex-col items-center justify-center p-4 sm:p-6 bg-muted/20 rounded-lg hover:bg-muted/30 transition-colors duration-300 aspect-video">
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Building className="h-8 w-8 text-primary" />
-                    </div>
-                    <h3 className="font-bold text-sm sm:text-base">UofG</h3>
-                    <p className="text-xs text-muted-foreground mt-1">University of Glasgow</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+         
         {/* Product Roadmap Section */}
         <section id="roadmap" className="py-8 sm:py-10 md:py-16 bg-muted/30">
           <div className="container px-4 sm:px-6 md:px-8">
@@ -664,8 +594,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Beta Program Section */}
-        <section id="beta-program" className="py-8 sm:py-10 md:py-16 bg-primary/5">
+          {/* Beta Program Section */}
+          <section id="beta-program" className="py-8 sm:py-10 md:py-16 bg-primary/5">
           <div className="container px-4 sm:px-6 md:px-8">
             <SectionHeading
               icon={<Beaker className="h-5 w-5" />}
@@ -675,14 +605,22 @@ export default function Home() {
             />
 
             <div className="mt-8 sm:mt-10 grid gap-6 sm:gap-8 md:grid-cols-3">
-              <Card className="bg-background/80 backdrop-blur">
-                <CardHeader className="pb-2">
-                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary mb-2">
-                    <GraduationCap className="h-6 w-6" />
+              {/* Researchers Card */}
+              <div className="bg-background/80 backdrop-blur rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="relative w-full h-48">
+                  <Image
+                    src="/AgriResearch.png?height=400&width=600&text=Researchers"
+                    alt="Agricultural researchers"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="text-xl font-bold text-white">Researchers</h3>
                   </div>
-                  <CardTitle>Researchers</CardTitle>
-                </CardHeader>
-                <CardContent>
+                </div>
+                <div className="p-4">
                   <p className="text-sm text-muted-foreground">
                     Academic and industry researchers interested in agricultural technology, sustainability, and food
                     security.
@@ -691,17 +629,25 @@ export default function Home() {
                     Join our beta program to help shape the future of agricultural technology and get early access to
                     our innovative solutions.
                   </p>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
 
-              <Card className="bg-background/80 backdrop-blur">
-                <CardHeader className="pb-2">
-                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary mb-2">
-                    <School className="h-6 w-6" />
+              {/* Educational Institutions Card */}
+              <div className="bg-background/80 backdrop-blur rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="relative w-full h-48">
+                  <Image
+                    src="/AgriEducation.png?height=400&width=600&text=Educational+Institutions"
+                    alt="Educational institutions"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="text-xl font-bold text-white">Educational Institutions</h3>
                   </div>
-                  <CardTitle>Educational Institutions</CardTitle>
-                </CardHeader>
-                <CardContent>
+                </div>
+                <div className="p-4">
                   <p className="text-sm text-muted-foreground">
                     Schools, colleges, and universities looking to incorporate modern agricultural technology into their
                     curriculum.
@@ -710,17 +656,25 @@ export default function Home() {
                     Join our beta program to help shape the future of agricultural technology and get early access to
                     our innovative solutions.
                   </p>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
 
-              <Card className="bg-background/80 backdrop-blur">
-                <CardHeader className="pb-2">
-                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary mb-2">
-                    <Seedling className="h-6 w-6" />
+              {/* Growers Card */}
+              <div className="bg-background/80 backdrop-blur rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="relative w-full h-48">
+                  <Image
+                    src="/Growers.png?height=400&width=600&text=Growers"
+                    alt="Commercial and hobby growers"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="text-xl font-bold text-white">Growers</h3>
                   </div>
-                  <CardTitle>Growers</CardTitle>
-                </CardHeader>
-                <CardContent>
+                </div>
+                <div className="p-4">
                   <p className="text-sm text-muted-foreground">
                     Commercial and hobby growers interested in testing cutting-edge automation for their hydroponic
                     systems.
@@ -729,8 +683,8 @@ export default function Home() {
                     Join our beta program to help shape the future of agricultural technology and get early access to
                     our innovative solutions.
                   </p>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             </div>
 
             <div className="mt-8 sm:mt-10 p-4 sm:p-6 bg-background rounded-xl shadow-sm border">
@@ -1087,7 +1041,106 @@ export default function Home() {
             </div>
           </div>
         </section>
+{/* Support and Collaborations Section */}
+<section id="collaborations" className="py-8 sm:py-10 md:py-16 bg-white">
+          <div className="container px-4 sm:px-6 md:px-8">
+            <SectionHeading
+              icon={<Bookmark className="h-5 w-5" />}
+              badge="Our Network"
+              title="Support & Collaborations"
+              description="We're proud to work with these leading organizations to advance agricultural technology"
+            />
 
+            <div className="mt-8 sm:mt-10">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 items-center">
+                {/* SRUC */}
+                <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="relative w-full aspect-video">
+                    <Image
+                      src="/sruc.png?height=200&width=300&text=SRUC"
+                      alt="Scotland's Rural College"
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="w-full p-3 text-center bg-white">
+                    <h3 className="font-bold text-sm sm:text-base">SRUC</h3>
+                    <p className="text-xs text-muted-foreground mt-1">Scotland's Rural College</p>
+                  </div>
+                </div>
+
+                {/* Business Gateway */}
+                <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="relative w-full aspect-video">
+                    <Image
+                      src="/BussinessGateway.png?height=200&width=300&text=Business+Gateway"
+                      alt="Business Gateway"
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="w-full p-3 text-center bg-white">
+                    <h3 className="font-bold text-sm sm:text-base">Business Gateway</h3>
+                    <p className="text-xs text-muted-foreground mt-1">Business Support Network</p>
+                  </div>
+                </div>
+
+                {/* Glasgow Caledonian University */}
+                <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="relative w-full aspect-video">
+                    <Image
+                      src="/gcu.png?height=200&width=300&text=GCU"
+                      alt="Glasgow Caledonian University"
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="w-full p-3 text-center bg-white">
+                    <h3 className="font-bold text-sm sm:text-base">GCU</h3>
+                    <p className="text-xs text-muted-foreground mt-1">Glasgow Caledonian University</p>
+                  </div>
+                </div>
+
+                {/* STAC */}
+                <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="relative w-full aspect-video">
+                    <Image
+                      src="/stac.png?height=200&width=300&text=STAC"
+                      alt="Scottish Tech Army CIC"
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="w-full p-3 text-center bg-white">
+                    <h3 className="font-bold text-sm sm:text-base">STAC</h3>
+                    <p className="text-xs text-muted-foreground mt-1">Scottish Tech Army CIC</p>
+                  </div>
+                </div>
+
+                {/* University of Glasgow */}
+                <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="relative w-full aspect-video">
+                    <Image
+                      src="/uofg.png?height=200&width=300&text=UofG"
+                      alt="University of Glasgow"
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="w-full p-3 text-center bg-white">
+                    <h3 className="font-bold text-sm sm:text-base">UofG</h3>
+                    <p className="text-xs text-muted-foreground mt-1">University of Glasgow</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Achievements Section */}
         <section id="achievements" className="py-8 sm:py-10 md:py-16 bg-primary/5">
           <div className="container px-4 sm:px-6 md:px-8">
