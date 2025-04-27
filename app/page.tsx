@@ -1002,7 +1002,7 @@ export default function Home() {
                         <div className="relative rounded-xl overflow-hidden">
                           <div className="aspect-video w-full h-[250px] sm:h-[300px] md:h-[350px]">
                             <Image
-                              src="/placeholder.svg?height=600&width=800"
+                              src="/custom.png?height=600&width=800"
                               alt="Custom Farming Solutions by Ufarms"
                               fill
                               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -1091,7 +1091,7 @@ export default function Home() {
                 <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
                   <div className="relative w-full aspect-video">
                     <Image
-                      src="/gcu.jpg?height=200&width=300&text=GCU"
+                      src="/gculogo.jpg?height=200&width=300&text=GCU"
                       alt="Glasgow Caledonian University"
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
@@ -1108,7 +1108,7 @@ export default function Home() {
                 <div className="flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
                   <div className="relative w-full aspect-video">
                     <Image
-                      src="/stac.jpg?hesight=200&width=300&text=STAC"
+                      src="/staclogo.jpg?hesight=200&width=300&text=STAC"
                       alt="Smart Things Accelerator Centre: STAC"
 
                       fill
