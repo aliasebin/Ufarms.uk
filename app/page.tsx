@@ -534,8 +534,8 @@ export default function Home() {
                     className="object-cover"
                     loading="lazy"
                   />
-                  
-                 
+
+
                 </div>
               </div>
 
@@ -1198,13 +1198,9 @@ export default function Home() {
                   </Button>
                   <Button id="beta-form-button" className="flex-1 bg-primary" asChild>
                     <a
-                      href="#beta-form"
-                      onClick={(e) => {
-                        e.preventDefault()
-                        alert(
-                          "Google Form will be linked here. This button will redirect to your form once it's created.",
-                        )
-                      }}
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdACWcmrlOxn-PH64yEBttfkrzaeEwizIR2lZ3-M9Wjky8liA/viewform"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <Beaker className="h-4 w-4 mr-2" />
                       Join Beta Program
