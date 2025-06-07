@@ -1331,7 +1331,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
               <p className="text-sm text-gray-300 mb-4">
                 Empowering sustainable farming with automation and AI technology.
               </p>
-              <p className="text-sm text-gray-300">© 2023 , Ufarms.io Ltd . All rights reserved.</p>
+              <p className="text-sm text-gray-300">© 2023 Ufarms.io Ltd . All rights reserved.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
