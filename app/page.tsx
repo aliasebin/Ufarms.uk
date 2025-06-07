@@ -267,11 +267,11 @@ export default function Home() {
               <div className="space-y-4 sm:space-y-6">
                 <SectionHeading
                   icon={<Sprout className="h-5 w-5" />}
-                  badge="About Ufarms UK"
+                  badge="About Ufarms.io Ltd"
                   title="At the Forefront of AgriTech Innovation"
                   description="Ufarms.io Ltd is a UK-founded agritech company focused on developing smart farming technologies for precision agriculture and hydroponics. Based in the United Kingdom, we are dedicated to delivering sustainable, scalable solutions that enable growers to optimise irrigation, climate control, and nutrient delivery through intelligent automation.
 
-Rooted in the UK’s innovation ecosystem, we are actively engaged in partnerships and upcoming pilot trials"
+Rooted in the UK’s innovation ecosystem, we are actively engaged in partnerships and upcoming pilot trials."
                   centered={false}
                 />
                 <div className="space-y-3 sm:space-y-4">
@@ -1331,7 +1331,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
               <p className="text-sm text-gray-300 mb-4">
                 Empowering sustainable farming with automation and AI technology.
               </p>
-              <p className="text-sm text-gray-300">© {new Date().getFullYear()} Ufarms UK. All rights reserved.</p>
+              <p className="text-sm text-gray-300">© 2023 , Ufarms.io Ltd . All rights reserved.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
@@ -1434,7 +1434,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center">
             <p className="text-xs text-gray-400">
-              Ufarms.io Ltd is an independent company incorporated in the United Kingdom [Company number SC792201]. It operates solely within the UK and has no branches, subsidiaries outside UK.  </p>
+              Ufarms.io Ltd is an independent company incorporated in the United Kingdom [Company number SC792201]. It operates solely within the UK and has no branches or  subsidiaries.  </p>
           </div>
         </div>
       </footer>
