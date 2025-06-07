@@ -162,7 +162,7 @@ export default function Home() {
         <div className="container px-4 sm:px-6 md:px-8 flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <img src="ufarmslogo.png" alt="Ufarms.io Logo" className="h-12 w-12" />
-            <span className="text-xl font-bold">Ufarms.io UK</span>
+            <span className="text-xl font-bold">Ufarms.io Ltd</span>
           </div>
           <nav className="hidden md:flex gap-4 lg:gap-6">
             <Link
@@ -1324,7 +1324,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2">
                 <img src="ufarmslogoWhite.png" alt="Ufarms.io Logo" className="h-11 w-11" />
-                <span className="text-xl font-bold">Ufarms.io UK</span>
+                <span className="text-xl font-bold">Ufarms.io Ltd</span>
               </div>
               <p className="text-sm text-gray-300 mb-4">
                 Empowering sustainable farming with automation and AI technology.
