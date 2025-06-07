@@ -459,7 +459,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
               <div className="relative rounded-xl overflow-hidden order-1">
                 <div className="aspect-square md:aspect-auto md:h-full w-full">
                   <Image
-                    src="/roadmap.png?height=800&width=600"
+                    src="/UfarmsStac.jpg?height=800&width=800"
                     alt="Ufarms journey from concept to market-ready solutions"
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -966,7 +966,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
                         <div className="relative rounded-xl overflow-hidden">
                           <div className="aspect-video w-full h-[250px] sm:h-[300px] md:h-[350px]">
                             <Image
-                              src="/precision1.jpg?height=600&width=800"
+                              src="/hydroponics.jpg?height=600&width=800"
                               alt="Home Growing Automation system by Ufarms"
                               fill
                               sizes="(max-width: 1024px) 100vw, 50vw"
