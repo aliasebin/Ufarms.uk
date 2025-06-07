@@ -17,7 +17,7 @@ const carouselData = [
     subtext: "Let our automation handle the routine tasks while you focus on what matters",
   },
   {
-    image: "/precision.jpg?height=1080&width=1920",
+    image: "/precision1.jpg?height=1080&width=1920",
     heading: "Precision Growing at Your Fingertips",
     subtext: "Advanced sensors and controls made simple for everyone",
   },

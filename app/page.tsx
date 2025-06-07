@@ -269,7 +269,9 @@ export default function Home() {
                   icon={<Sprout className="h-5 w-5" />}
                   badge="About Ufarms UK"
                   title="At the Forefront of AgriTech Innovation"
-                  description="As an innovative UK startup, Ufarms is developing simple, user-friendly indoor farming solutions to enable hyperlocal food production for everyone."
+                  description="Ufarms.io Ltd is a UK-founded agritech company focused on developing smart farming technologies for precision agriculture and hydroponics. Based in the United Kingdom, we are dedicated to delivering sustainable, scalable solutions that enable growers to optimise irrigation, climate control, and nutrient delivery through intelligent automation.
+
+Rooted in the UK’s innovation ecosystem, we are actively engaged in partnerships and upcoming pilot trials"
                   centered={false}
                 />
                 <div className="space-y-3 sm:space-y-4">
@@ -487,7 +489,7 @@ export default function Home() {
                       </div>
                       <h3 className="text-base sm:text-lg font-bold">Ufarms Formation</h3>
                       <p className="mt-1 text-muted-foreground text-xs sm:text-sm">
-                        Founded with a vision to revolutionize urban farming through technology and sustainability.
+                      Founded on 12 December 2023, Ufarms.io Ltd began with a clear vision: to revolutionize urban and precision farming through technology and sustainability.
                       </p>
                     </div>
                   </div>
@@ -888,7 +890,7 @@ export default function Home() {
                         <div className="relative rounded-xl overflow-hidden">
                           <div className="aspect-video w-full h-[250px] sm:h-[300px] md:h-[350px]">
                             <Image
-                              src="/precision.jpg?height=600&width=800"
+                              src="/precision1.jpg?height=600&width=800"
                               alt="Simple Farm Automation system by Ufarms"
                               fill
                               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -964,7 +966,7 @@ export default function Home() {
                         <div className="relative rounded-xl overflow-hidden">
                           <div className="aspect-video w-full h-[250px] sm:h-[300px] md:h-[350px]">
                             <Image
-                              src="/precision.jpg?height=600&width=800"
+                              src="/precision1.jpg?height=600&width=800"
                               alt="Home Growing Automation system by Ufarms"
                               fill
                               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -1432,9 +1434,7 @@ export default function Home() {
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center">
             <p className="text-xs text-gray-400">
-              Ufarms UK is committed to sustainable farming practices and reducing the environmental impact of food
-              production.
-            </p>
+              Ufarms.io Ltd is an independent company incorporated in the United Kingdom [Company number SC792201]. It operates solely within the UK and has no branches, subsidiaries outside UK.  </p>
           </div>
         </div>
       </footer>
