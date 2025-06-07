@@ -11,12 +11,12 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Ufarms UK - Empowering Sustainable Farming with Automation & AI",
+  title: "Ufarms.io Ltd - Empowering Sustainable Farming with Automation & AI",
   description:
     "Ufarms is at the forefront of AgriTech innovation, developing advanced indoor farming solutions to enable hyperlocal food production.",
   keywords:
     "hydroponics, farming automation, agritech, sustainable farming, indoor farming, UK agriculture, IoT farming",
-  authors: [{ name: "Ufarms UK" }],
+  authors: [{ name: "Ufarms.io Ltd" }],
   // Add metadata for SSL and security
   verification: {
     google: "google-site-verification-code", // Replace with actual verification code if needed
@@ -25,8 +25,8 @@ export const metadata = {
     type: "website",
     locale: "en_GB",
     url: "https://ufarms.io/",
-    siteName: "Ufarms UK",
-    title: "Ufarms UK - Smart Farming Solutions",
+    siteName: "Ufarms.io Ltd",
+    title: "Ufarms.io Ltd",
     description: "Innovative indoor farming automation for everyone",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Ufarms UK - Smart Farming Solutions",
     description: "Innovative indoor farming automation for everyone",
-    images: ["/og-image.jpg"],
+    images: ["/LTD.jpg"],
   },
   robots: {
     index: true,
