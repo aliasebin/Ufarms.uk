@@ -1414,7 +1414,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
             <div>
               <h4 className="font-semibold mb-4">Follow Us</h4>
               <div className="flex gap-4">
-                <a href="https://www.linkedin.com/company/ufarmsio" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/company/ufarms-uk" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-gray-300 hover:text-primary" />
                 </a>
                 <a href="https://www.instagram.com/ufarms.io_ltd" target="_blank" rel="noopener noreferrer">
@@ -1423,7 +1423,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
                 <a href="https://www.threads.net/ufarmsioltd" target="_blank" rel="noopener noreferrer">
                   <Globe className="h-5 w-5 text-gray-300 hover:text-primary" title="Threads" />
                 </a>
-                <a href="https://x.com/ufarms-uk" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/ufarmsioltd" target="_blank" rel="noopener noreferrer">
                   <Twitter className="h-5 w-5 text-gray-300 hover:text-primary" title="Twitter" />
                 </a>
               </div>
