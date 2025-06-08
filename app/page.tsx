@@ -1423,7 +1423,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
                 <a href="https://www.threads.net/ufarmsioltd" target="_blank" rel="noopener noreferrer">
                   <Globe className="h-5 w-5 text-gray-300 hover:text-primary" title="Threads" />
                 </a>
-                <a href="https://x.com/ufarmsioltd" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/ufarms-uk" target="_blank" rel="noopener noreferrer">
                   <Twitter className="h-5 w-5 text-gray-300 hover:text-primary" title="Twitter" />
                 </a>
               </div>
