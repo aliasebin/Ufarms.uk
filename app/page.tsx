@@ -10,6 +10,7 @@ import { Carousel } from "@/components/carousel"
 import { SectionHeading } from "@/components/section-heading"
 import { MobileMenu } from "@/components/mobile-menu"
 import { FeatureCard } from "@/components/feature-card"
+import { Linkedin, Instagram, Globe,Twitter } from "lucide-react";
 import {
   Droplet,
   Thermometer,
@@ -489,7 +490,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
                       </div>
                       <h3 className="text-base sm:text-lg font-bold">Ufarms Formation</h3>
                       <p className="mt-1 text-muted-foreground text-xs sm:text-sm">
-                      Founded on 12 December 2023, Ufarms.io Ltd began with a clear vision: to revolutionize urban and precision farming through technology and sustainability.
+                        Founded on 12 December 2023, Ufarms.io Ltd began with a clear vision: to revolutionize urban and precision farming through technology and sustainability.
                       </p>
                     </div>
                   </div>
@@ -1411,33 +1412,31 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
-              <ul className="space-y-2">
-                <li className="flex items-center gap-2">
-                  <Mail className="h-4 w-4 text-primary" />
-                  <a href="mailto:hello@ufarms.io" className="text-sm text-gray-300 hover:text-primary">
-                    hello@ufarms.io
-                  </a>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Phone className="h-4 w-4 text-primary" />
-                  <a href="tel:+447447146002" className="text-sm text-gray-300 hover:text-primary">
-                    +44 7447 146002
-                  </a>
-                </li>
-                <li className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm text-gray-300">Glasgow, UK</span>
-                </li>
-              </ul>
+              <h4 className="font-semibold mb-4">Follow Us</h4>
+              <div className="flex gap-4">
+                <a href="https://www.linkedin.com/company/ufarmsio" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 text-gray-300 hover:text-primary" />
+                </a>
+                <a href="https://www.instagram.com/ufarms.io_ltd" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-5 w-5 text-gray-300 hover:text-primary" />
+                </a>
+                <a href="https://www.threads.net/ufarmsioltd" target="_blank" rel="noopener noreferrer">
+                  <Globe className="h-5 w-5 text-gray-300 hover:text-primary" title="Threads" />
+                </a>
+                <a href="https://x.com/ufarmsioltd" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="h-5 w-5 text-gray-300 hover:text-primary" title="Twitter" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center">
             <p className="text-xs text-gray-400">
-              Ufarms.io Ltd is an independent company incorporated in the United Kingdom [Company number SC792201]. It operates solely within the UK and has no branches or  subsidiaries.  </p>
+              Ufarms.io Ltd is an independent company incorporated in the United Kingdom [Company number SC792201]. It operates solely within the UK and has no branches or subsidiaries.
+            </p>
           </div>
         </div>
       </footer>
+
     </div>
   )
 }
