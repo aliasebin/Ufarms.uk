@@ -10,7 +10,7 @@ import { Carousel } from "@/components/carousel"
 import { SectionHeading } from "@/components/section-heading"
 import { MobileMenu } from "@/components/mobile-menu"
 import { FeatureCard } from "@/components/feature-card"
-import { Linkedin, Instagram, Globe,Twitter } from "lucide-react";
+import { Linkedin, Instagram, Globe, Twitter } from "lucide-react";
 import {
   Droplet,
   Thermometer,
@@ -162,8 +162,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container px-4 sm:px-6 md:px-8 flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="ufarmslogo.png" alt="Ufarms.io Logo" className="h-12 w-12" />
-            <span className="text-xl font-bold">Ufarms.io Ltd</span>
+            <img src="ufarmslogo.jpg" alt="Ufarms.io Logo" className="h-16 object-contain" />
           </div>
           <nav className="hidden md:flex gap-4 lg:gap-6">
             <Link
@@ -1420,7 +1419,7 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
                 <a href="https://www.instagram.com/ufarms.io_ltd" target="_blank" rel="noopener noreferrer">
                   <Instagram className="h-5 w-5 text-gray-300 hover:text-primary" />
                 </a>
-                <a href="https://www.threads.net/ufarmsioltd" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.threads.com/@ufarms.io_ltd?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank" rel="noopener noreferrer">
                   <Globe className="h-5 w-5 text-gray-300 hover:text-primary" title="Threads" />
                 </a>
                 <a href="https://x.com/ufarmsioltd" target="_blank" rel="noopener noreferrer">
