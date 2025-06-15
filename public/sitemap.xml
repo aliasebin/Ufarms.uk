@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main website -->
+  <url>
+    <loc>https://ufarms.io/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- UK Business Profiles -->
+  <url>
+    <loc>https://www.linkedin.com/company/ufarms-uk/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.instagram.com/ufarms.io_ltd/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.threads.net/@ufarms.io_ltd</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://x.com/ufarmsioltd</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.f6s.com/ufarms.io</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- UK Recognition and Press -->
+  <url>
+    <loc>https://www.stac.ac/20-start-ups-join-stac-scales-fourth-cohort/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.linkedin.com/posts/stac-smart-things-accelerator-centre_stac-launches-fourth-cohort-and-appoints-activity-7170794251893608448-At5h</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://glasgowcityofscienceandinnovation.com/glasgows-stac-fourth-cohort-launched-alongside-new-chair/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.insider.co.uk/news/stac-launches-fourth-accelerator-cohort-32284765</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
