@@ -49,6 +49,29 @@ import {
   Beaker,
   Milestone,
 } from "lucide-react"
+import Head from "next/head"
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "UFarms.io Ltd",
+  "url": "https://ufarms.io/",
+  "logo": "https://ufarms.io/ufarmslogo.jpg", // replace with actual logo URL
+  "sameAs": [
+    "https://www.linkedin.com/company/ufarms-uk/",
+    "https://www.instagram.com/ufarms.io_ltd/",
+    "https://www.threads.net/@ufarms.io_ltd",
+    "https://x.com/ufarmsioltd",
+    "https://www.f6s.com/ufarms.io"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+44 7447146002", // replace with real phone
+    "contactType": "Customer Service",
+    "areaServed": "GB",
+    "availableLanguage": ["English"]
+  }
+};
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -159,6 +182,17 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
+
+      {/* Head metadata + JSON-LD */}
+      <Head>
+        <title>UFarms.io Ltd — Smart Farming Technology</title>
+        <meta name="description" content="UFarms.io Ltd leverages smart technology for precision farming and sustainable agriculture." />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </Head>
+
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container px-4 sm:px-6 md:px-8 flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
