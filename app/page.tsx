@@ -1258,6 +1258,124 @@ Rooted in the UK’s innovation ecosystem, we are actively engaged in partnershi
           </div>
         </section>
 
+                {/* News & Updates Section */}
+        <section id="news" className="py-8 sm:py-10 md:py-16 bg-muted/30">
+          <div className="container px-4 sm:px-6 md:px-8">
+            <SectionHeading
+              icon={<Calendar className="h-5 w-5" />}
+              badge="Latest Updates"
+              title="News & Blog"
+              description="Stay updated with our latest developments, insights, and industry news"
+            />
+
+            <div className="mt-8 sm:mt-10 grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {/* Blog Post 1 */}
+              <a
+                href="https://ufarmsioltd.blogspot.com/2025/06/ufarms.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-background rounded-xl overflow-hidden shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="relative w-full h-48">
+                  <Image
+                    src="/ufarmslogo.jpg?height=400&width=600&text=Urban+Farming+Future"
+                    alt="The Future of Urban Farming"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div className="p-4 sm:p-6">
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
+                    
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
+                    Ufarms.io Ltd: Revolutionizing Climate-Smart Farming in the UK
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-3">
+                    Explore how Ufarms.io Ltd, an innovative agritech startup based in Glasgow, is driving the future of sustainable agriculture in the UK. Learn about their climate-smart hydroponic and vertical farming systems, academic collaborations, and real-world pilot projects transforming British farming.
+                  </p>
+                  <div className="mt-4 flex items-center text-primary text-sm font-medium">
+                    <span>Read More</span>
+                    <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              </a>
+
+              {/* Blog Post 2 */}
+              <a
+                href="https://www.linkedin.com/posts/ufarms-uk_ufarms-betaprogram-agritechuk-activity-7337587195173654529-wOir?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgob2oB4uFanSQ-61QzTO3_MtKF6TFrKDM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-background rounded-xl overflow-hidden shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="relative w-full h-48">
+                  <Image
+                    src="/beta.jpg?height=400&width=600&text=Sustainable+Growing"
+                    alt="Sustainable Growing Practices"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div className="p-4 sm:p-6">
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
+         
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
+                    Join the Ufarms.io Beta Program
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-3">
+                    Ufarms.io Ltd is launching its exclusive Beta Program for UK farmers and agri-partners. Test cutting-edge AI-powered tools for crop monitoring, smart irrigation, and precision farming. Apply now to shape the future of sustainable agriculture in the UK
+                  </p>
+                  <div className="mt-4 flex items-center text-primary text-sm font-medium">
+                    <span>Read More</span>
+                    <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              </a>
+
+              {/* Blog Post 3 */}
+              <a
+                href="https://www.stac.ac/20-start-ups-join-stac-scales-fourth-cohort/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-background rounded-xl overflow-hidden shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="relative w-full h-48">
+                  <Image
+                    src="/cohort4.jpg?height=400&width=600&text=Beta+Program+Success"
+                    alt="Ufarms Beta Program Success Stories"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div className="p-4 sm:p-6">
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
+                   
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
+                    Ufarms.io Ltd Joins STAC Cohort 4
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-3">
+                    Ufarms.io Ltd has been selected for STAC Scotland’s prestigious Cohort 4. Learn how this milestone strengthens our mission to deliver AI-powered, sustainable farming solutions tailored to UK agricu
+                  </p>
+                  <div className="mt-4 flex items-center text-primary text-sm font-medium">
+                    <span>Read More</span>
+                    <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              </a>
+            </div>
+
+      
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section id="contact" className="py-8 sm:py-10 md:py-16 bg-muted/30">
           <div className="container px-4 sm:px-6 md:px-8">
